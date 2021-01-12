@@ -1,3 +1,17 @@
-*{
-    background: black;
+body{
+    font-family: 'Titillium Web', sans-serif;
+    .container-plomo{
+        background-color: #f1f1f1;
+        padding: 50px 0 30px 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    footer{
+        background: url("https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat center left;
+        opacity: .9;
+    }
+    header,section,footer{
+        padding: 40px 0 ; 
+    }
 }
+

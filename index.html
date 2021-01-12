@@ -6,11 +6,109 @@
     <title>Proyect Boostrap 4</title>
     <!--Boostrap 4-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <!--Google Fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web&amp;display=swap"/>
+    <!--ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!--Style - CSS-->
     <link rel="stylesheet" href="../css/style.css"/>
   </head>
   <body>
-    <h1>Prueba</h1>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+      <div class="container"><a class="navbar-brand" href="#">Boostrap WebSite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#header">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#info-one">Acerca de</a></li>
+            <li class="nav-item"><a class="nav-link" href="#info-two">Noticias</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Cabecera-->
+    <header id="header">
+      <div class="container mt-5 text-justify">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="header-content-left"><img src="https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" style="width: 100%;"/></div>
+          </div>
+          <div class="col-md-6">
+            <div class="header-content-right">
+              <h1 class="display-4">Lorem, ipsum dolor.</h1>
+              <p class="mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius porro explicabo nihil accusantium, veritatis quos excepturi iusto officia blanditiis error nam dolorem quas ad, iure rerum! Dolorem, ab? Accusantium voluptas dolore libero optio soluta est aliquam reiciendis atque cumque, corporis nemo laboriosam facere minima tempora voluptates deserunt facilis iure quasi!</p><a class="btn btn-outline-secondary btn-lg mt-2 header-btn" href="#">Leer Mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Testimonio-->
+    <section class="container-plomo" id="testimonio">
+      <div class="container">
+        <p class="mb-2 h2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt ipsum ut quo maxime asperiores quis id, exercitationem excepturi nemo quisquam.</p>
+        <p class="h4">- Pedro Velasquez</p>
+      </div>
+    </section>
+    <!--Informacion1-->
+    <section id="info-one">
+      <div class="container mt-5 text-justify">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info-one-left"><img src="https://images.pexels.com/photos/1310532/pexels-photo-1310532.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" style="width: 100%;"/></div>
+          </div>
+          <div class="col-md-6 my-auto">
+            <div class="info-one-right">
+              <h2>Lorem ipsum dolor sit.</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam atque odit sapiente obcaecati maiores deleniti dicta delectus. Ut labore est, non quod illo magni quas inventore dolorum architecto assumenda omnis nemo? Ducimus aliquid rem illo odio animi, minus incidunt.</p><a class="btn btn-outline-secondary btn-lg mt-2" href="#">Leer Mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Informacion2-->
+    <section class="container-plomo" id="info-two">
+      <div class="container text-justify">
+        <div class="row my-5">
+          <div class="col-md-6">
+            <div class="info-two-left">
+              <h2>Lorem, ipsum dolor.</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis deserunt itaque nam accusantium necessitatibus earum cum aut atque labore officia eum placeat rem aliquid ducimus id repellat voluptatibus corporis obcaecati facere neque, eveniet iusto cupiditate. Itaque sint eum ipsam perspiciatis eius excepturi? Natus impedit quisquam temporibus voluptatibus accusantium quaerat tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum sed molestias deserunt minus impedit necessitatibus nam, dolores error animi mollitia. Saepe ad quisquam aperiam animi cum labore nihil fugiat possimus.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-two-right">
+              <h2>Lorem, ipsum dolor.</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis deserunt itaque nam accusantium necessitatibus earum cum aut atque labore officia eum placeat rem aliquid ducimus id repellat voluptatibus corporis obcaecati facere neque, eveniet iusto cupiditate. Itaque sint eum ipsam perspiciatis eius excepturi? Natus impedit quisquam temporibus voluptatibus accusantium quaerat tempora! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum sed molestias deserunt minus impedit necessitatibus nam, dolores error animi mollitia. Saepe ad quisquam aperiam animi cum labore nihil fugiat possimus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5" id="formulario">
+            <form class="card my-5" method="post">
+              <div class="card-body">
+                <div class="form-group">
+                  <input class="form-control" type="text" placeholder="Nombre"/>
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" placeholder="Email"/>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                </div>
+                <button class="btn btn-outline-secondary btn-block" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
     <!--Boostrap 4 script-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
